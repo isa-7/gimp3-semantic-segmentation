@@ -108,10 +108,22 @@ The current development setup uses machine-specific paths. Do not publish `local
 
 ## License and Redistribution
 
-License review is in progress.
+The original project code is intended to be released under the Apache License, Version 2.0, subject to final review of file provenance and third-party components. See `LICENSE`.
 
-The NVIDIA Source Code License for SegFormer contains restrictions on the use of covered works and derivatives, including non-commercial research or evaluation limitations under Section 3.3. The license file is retained locally while its applicability to the project's components is reviewed.
+Third-party code and model artifacts may be subject to separate licenses and redistribution conditions. See `THIRD_PARTY_NOTICES.md` and `audit/segformer-provenance.md` for the current attribution and provenance records.
 
-The license and provenance of project source code, pretrained model weights, ONNX exports, and checkpoints must be assessed separately. The SegFormer-B0 ONNX model is excluded from this repository pending final review of its provenance and redistribution terms. The DPT-Hybrid checkpoint is also not included.
+### DPT-Hybrid
 
-Do not assume that commercial use or redistribution is permitted for any model artifact until its applicable license and provenance have been verified.
+The DPT implementation used by this project includes or relies on code from DPT associated with Intel Intelligent Systems Lab. The identified upstream source tree contains an MIT license. See `THIRD_PARTY_NOTICES.md`. The provenance and applicable terms of each redistributed model artifact must be assessed separately.
+
+### SegFormer-B0
+
+The SegFormer-B0 model artifacts were traced to the Xenova repository and the NVIDIA SegFormer model lineage. The NVIDIA SegFormer repository contains a license with non-commercial research and evaluation restrictions.
+
+The precise license applicability to each local source file, metadata file, and model artifact remains under review. The SegFormer-B0 ONNX model is excluded from public redistribution until its applicable terms and permissions have been confirmed.
+
+### Model and checkpoint policy
+
+Do not assume that source-code licensing grants permission to redistribute pretrained weights, ONNX exports, checkpoints, or derived artifacts. Their provenance, license terms, and intended use must be reviewed separately.
+
+This project’s licensing documentation is a work in progress. Please review the applicable third-party terms before commercial use or redistribution.
