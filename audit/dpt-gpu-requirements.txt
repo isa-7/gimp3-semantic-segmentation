@@ -1,0 +1,16 @@
+# DPT-Hybrid GPU environment
+# Tested with Python 3.10.11
+# PyTorch CUDA 11.8 build
+numpy==1.26.4
+opencv-python-headless==4.10.0.84
+Pillow==12.3.0
+timm==0.4.12
+torch==2.0.1+cu118
+torchvision==0.15.2+cu118
+torchaudio==2.0.2+cu118
+
+# Official PyTorch wheel index for CUDA 11.8:
+# https://download.pytorch.org/whl/cu118
+# Reference installation command for a new Python 3.10 environment:
+# pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cu118
+# Do not run this command in the already-working environment without a deliberate rebuild plan.

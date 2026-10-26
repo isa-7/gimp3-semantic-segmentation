@@ -1,0 +1,18 @@
+certifi==2026.10.19
+charset-normalizer==3.5.2
+filelock==4.1.0
+idna==3.20
+Jinja2==3.1.6
+MarkupSafe==3.0.4
+mpmath==1.3.0
+networkx==3.4.2
+numpy @ file:///C:/Users/isamsaid/AppData/Local/Temp/tmp.UAEC7k9XWi/numpy-1.26.4-cp310-cp310-win_amd64.whl
+opencv-python-headless @ file:///C:/Users/isamsaid/AppData/Local/Temp/tmp.UAEC7k9XWi/opencv_python_headless-4.10.0.84-cp37-abi3-win_amd64.whl
+pillow==12.3.0
+requests==2.34.2
+sympy==1.14.0
+timm @ file:///C:/Users/isamsaid/AppData/Local/Temp/tmp.uumBg4TpRE/timm-0.4.12-py3-none-any.whl
+torch @ file:///C:/Users/isamsaid/AppData/Local/Temp/tmp.UAEC7k9XWi/torch-2.0.1-cp310-cp310-win_amd64.whl
+torchvision @ file:///C:/Users/isamsaid/AppData/Local/Temp/tmp.UAEC7k9XWi/torchvision-0.15.2-cp310-cp310-win_amd64.whl
+typing_extensions==4.16.0
+urllib3==2.8.0

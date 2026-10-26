@@ -1,0 +1,64 @@
+# Python environments
+.venv/
+venv/
+env/
+gimpenv3/
+segformerenv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.safetensors
+*.onnx
+*.bin
+
+# Test outputs and temporary files
+test-output/
+tmp/
+*.log
+
+# Local configuration and secrets
+.env
+.env.*
+
+# Local GPU environment
+segformergpuenv/
+dptgpuenv/
+dptenv/
+segformerenv/
+gimpenv3/
+
+# All Python bytecode and cache directories
+__pycache__/
+*.py[cod]
+
+# Local backups
+*.bak
+*.bak-*
+*.bak.*
+
+# Local GIMP testing profile and configuration
+test-gimp-config/
+
+# Local test artifacts (keep Python test scripts)
+tests/*.png
+tests/*.xcf
+
+# Generated test outputs and temporary files
+*.tmp
+
+# Machine-specific local configuration
+local-config.json
+
+# Local test output images and project files
+test/
+tests/*.png
+tests/*.xcf
+
+# License files pending provenance review
+/LICENSE.txt
+/LICENSE (1).txt

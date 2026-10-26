@@ -1,0 +1,10 @@
+{
+  "project_name": "GIMP3 Semantic Segmentation",
+  "plugin_id": "semsegnew",
+  "default_model": "DPT-Hybrid (Default)",
+  "additional_models": [
+    "SegFormer-B0"
+  ],
+  "gimp_version_target": "3.2.6",
+  "status": "development"
+}

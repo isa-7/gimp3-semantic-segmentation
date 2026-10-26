@@ -1,0 +1,8 @@
+# DPT-Hybrid CPU environment
+# Tested with Python 3.10.11
+numpy==1.26.4
+opencv-python-headless==4.10.0.84
+Pillow==12.3.0
+timm==0.4.12
+torch==2.0.1+cpu
+torchvision==0.15.2+cpu

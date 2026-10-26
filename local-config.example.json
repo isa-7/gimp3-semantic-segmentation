@@ -1,0 +1,10 @@
+{
+  "python": {
+    "dpt_cpu": "PATH/TO/dptenv/Scripts/python.exe",
+    "dpt_gpu": "PATH/TO/dptgpuenv/Scripts/python.exe",
+    "segformer_cpu": "PATH/TO/segformerenv/Scripts/python.exe",
+    "segformer_gpu": "PATH/TO/segformergpuenv/Scripts/python.exe"
+  },
+  "dpt_checkpoint": "PATH/TO/dpt_hybrid-ade20k-53898607.pt",
+  "dpt_source_root": "PATH/TO/gimpml"
+}
